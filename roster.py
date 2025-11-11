@@ -3,6 +3,9 @@
 import pandas as pd
 
 roster = ["Bacot", "Davis", "Cadeau"]
-player = {"Last Names": roster}
+player = {"Last Names": roster,
+          "First Name": ["Armando", "RJ", "Elliot"],
+          "Height": [83, 72, 73],
+          "Weight": [240, 180, 180],}
 data = pd.DataFrame(roster)
 print(data)
