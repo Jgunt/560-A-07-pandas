@@ -2,8 +2,8 @@
 
 import pandas as pd
 
-roster = ["Bacot", "Davis", "Cadeau"]
-player = {"Last Names": roster,
+
+player = {"Last Names": ["Bacot", "Davis", "Cadeau"],
           "First Name": ["Armando", "RJ", "Elliot"],
           "Height": [83, 72, 73],
           "Weight": [240, 180, 180],}
