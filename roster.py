@@ -18,3 +18,5 @@ data["BMI"] = (data["Weight"] / 2.205) / ((data["Height"] / 39.37) ** 2)
 data["BMI"] = data["BMI"].round(2)
 
 print(data)
+
+data.to_csv("roster_bmi.csv", index=False)
